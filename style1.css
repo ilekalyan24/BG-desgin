@@ -1,0 +1,460 @@
+.main{
+    height: 630px;
+    width: 100%;
+    background-image: url(img4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(20px);
+    .b1{
+        height: 50px;
+        width: 50px;
+        border: 1px blue solid;
+        background-color: blue;
+        border-radius: 50%;
+        position: absolute;
+        left: 400px;
+        top: 100px;
+        animation: moving 2s alternate linear infinite;
+    }
+}
+@keyframes moving{
+    from{
+        top:100px;
+    }
+    to{
+        top: 400px;
+        left: 400px;
+    }
+}
+.b2{
+    height: 100px;
+    width: 100px;
+    border: 1px black solid;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 800px;
+    top: 500px;
+    animation: scroll 3s alternate linear infinite;
+}
+@keyframes scroll{
+    from{
+        top: 500px;
+    }
+    to{
+        top: 250px;
+        left: 600px;
+    }
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    position: absolute;
+    top: 0;
+    a{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border: 1px blue solid;
+    border-radius: 50%;
+    background-image: url(img2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    animation: action 5s alternate linear;
+}
+@keyframes action{
+    from{
+        left: 0px;
+    }
+    to{
+        right: 200px;
+    }
+}
+h3{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: rgb(133, 127, 127);
+}
+h1{
+    position: absolute;
+    top: 230px;
+    left: 200px;
+}
+.h{
+    position: absolute;
+    top: 275px;
+    left: 200px;
+}
+.about{
+    height: 630px;
+    width: 100%;
+    background-image: url(img4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(20px);
+}
+.msg{
+    height: 300px;
+    width: 500px;
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 800px;
+    left: 750px;
+    opacity: 0.3;
+}
+.hed{
+    position: absolute;
+    top: 800px;
+    left: 850px;
+}
+p{
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    top: 900px;
+    left: 800px;
+}
+img{
+    position: absolute;
+    top: 600px;
+}
+.s{
+    left: 800px;
+    top: 1150px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.hh{
+    position: absolute;
+    top: 1300px;
+    left: 600px;
+}
+.skills{
+    height: 800px;
+    width: 100%;
+    background-image: url(img4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(20px);
+}
+.ss{
+    position: absolute;
+    top: 1400px;
+    left: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 400px 400px 50px;
+    grid-template-rows: 400px 400px;
+    gap: 30px; 
+}
+.s1{
+    height: 350px;
+    width: 250px;
+    border: 1px yellowgreen solid;
+    background-color: yellowgreen;
+    border-radius: 20px;
+}
+h4{
+    color: aliceblue;
+    text-align: center;
+}
+.p1{
+    height: 200px;
+    width: 200px;
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.m1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+}
+.p2{
+    height: 200px;
+    width: 220px;
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+    position: absolute;
+    top: 40px;
+    left: 450px;
+}
+.m2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    left: 450px;
+}
+.p3{
+    height: 200px;
+    width: 220px;
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+    position: absolute;
+    top: 40px;
+    left: 880px;
+}
+.m3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    left: 880px;
+}
+.p4{
+    height: 200px;
+    width: 200px;
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+    position: absolute;
+    top: 455px;
+    left: 23px;
+}
+.m4{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    position: absolute;
+    top: 405px;
+    left: 0px;
+}
+.p5{
+    height: 200px;
+    width: 200px;
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+    position: absolute;
+    top: 455px;
+    left: 460px;
+}
+.m5{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30px;
+    position: absolute;
+    top: 440px;
+    left: 460px;
+}
+.p6{
+    height: 200px;
+    width: 200px;
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+    position: absolute;
+    top: 465px;
+    left: 880px;
+}
+.m6{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30px;
+    position: absolute;
+    top: 445px;
+    left: 890px;
+}
+.project{
+    height: 630px;
+    width: 100%;
+    background-image: url(img4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(20px);
+    position: absolute;
+    top: 2250px;
+}
+.heading{
+    position: absolute;
+    top: 2250px;
+    left: 550px;
+}
+.boxs{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    /* justify-content: center; */
+    gap: 30px; 
+    left: 40px;
+    top: 2350px;
+}
+.z{
+    height: 200px;
+    width: 400px;
+    border: 1px black solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.boxes{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 30px; 
+    left: 40px;
+    top: 2600px;
+}
+.z1{
+    height: 200px;
+    width: 400px;
+    border: 1px black solid;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.contact{
+    height: 630px;
+    width: 100%;
+    background-image: url(img4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(20px);
+    position: absolute;
+    top: 2900px;
+}
+.name{
+    position: absolute;
+    top: 2900px;
+    left: 550px;
+}
+.conmain{
+    height: 350px;
+    width: 600px;
+    border: 1px black groove;
+    background-color: black;
+    position: absolute;
+    top: 3050px;
+    left: 350px;
+    .info{
+        height: 350px;
+        width: 150px;
+        border: 1px yellow solid;
+        background-color: yellow;
+        position: absolute;
+        right: 0;
+    }
+    .inc{
+        height: 150px;
+        width: 200px;
+        border: 1px white solid;
+        background-color: white;
+        position: absolute;
+        top: 100px;
+        right: 50px;
+        .kk{
+            position: absolute;
+            left: 20px;
+            top: -5px;
+        }
+        .mail{
+            position: absolute;
+            top: 45px;
+            text-decoration: none;
+            /* left: 10px; */
+        }
+        .g{
+            position: absolute;
+            top: -17px;
+            left: 25px;
+        }
+    }
+    .pho{
+        position: absolute;
+        top: 170px;
+        left: -100px;
+    }
+    .call{
+        position: absolute;
+        top: -18px;
+        left: 20px;
+    }
+    .build{
+        position: absolute;
+        top: 200px;
+        left: -100px;
+    }
+    .add{
+        position: absolute;
+        top: -15px;
+        left: 20px;
+    }
+    .time{
+        position: absolute;
+        top: 210px;
+        left: -100px;
+    }
+    .zz{
+        position: absolute;
+        top: 10px;
+        left: 40px;
+        color: white;
+    }
+    .para{
+        position: absolute;
+        width: 300px;
+        top: 60px;
+        left: 30px;
+        color: white;
+    }
+    .text{
+        height: 30px;
+        width: 250px;
+        position: absolute;
+        left: 30px;
+        top: 120px;
+    }
+    .text1{
+        height: 30px;
+        width: 250px;
+        position: absolute;
+        left: 30px;
+        top: 170px; 
+    }
+    .text2{
+        height: 60px;
+        width: 250px;
+        position: absolute;
+        left: 30px;
+        top: 220px;    
+    }
+    .send{
+        height: 30px;
+        width: 100px;
+        background-color: white;
+        color: black;
+        position: absolute;
+        top: 300px;
+        left: 120px;
+        text-align: center;
+    }
+}
